@@ -1,4 +1,5 @@
 <script lang="ts">
+  import History from "$lib/Components/History.svelte"
   import Prompt from "$lib/Components/Prompt.svelte"
 
   let value = ""
@@ -11,7 +12,7 @@
 </script>
 
 <form on:submit|preventDefault={submit}>
-  <textarea readonly bind:value={history}/>
+  <History history={history} />
   <Prompt bind:value />
   <input type="submit" hidden/>
 </form>
