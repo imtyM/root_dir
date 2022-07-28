@@ -1,5 +1,10 @@
 <script lang="ts">
-  export let history: string
+  export let elements
 </script>
 
-<textarea readonly bind:value={history}/>
+{#each elements as element}
+  <svelte:component this={element?.component}>
+    {element?.children}
+  </svelte:component>
+{/each}
+
