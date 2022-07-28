@@ -9,7 +9,6 @@
   export let cmd = 'echo'
 
   const echo = cmd.split(' ').slice(1).join(' ')
-  console.log({cmd, echo})
 </script>
 
 <div>
