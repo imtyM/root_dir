@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/imtyM/root_dir/compare/v1.0.0...v1.1.0) (2022-07-28)
+
+
+### Features
+
+* **cli:** add an echo command. ([6783fd8](https://github.com/imtyM/root_dir/commit/6783fd8985e3b4129e2a5f9fad82972380ff1565))
+
 ## 1.0.0 (2022-07-28)
 
 
