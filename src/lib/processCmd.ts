@@ -1,7 +1,7 @@
 import Error from '$lib/Components/Error.svelte'
 import type { SvelteComponent } from "svelte"
 
-const outputs = import.meta.glob('$lib/Components/Outputs/*.svelte', {
+const outputs = import.meta.glob('$lib/Components/Commands/*.svelte', {
   eager: true
 })
 

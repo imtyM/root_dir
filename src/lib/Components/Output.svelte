@@ -1,6 +1,5 @@
 <script lang="ts">
   export let elements
-  $: console.log({elements})
 </script>
 
 {#each elements as element}
