@@ -1,8 +1,5 @@
-<script lang='ts'>
-  export let value: string
-</script>
+<p>~/home/imtiaz <span>on</span> <span>master</span></p>
+<div class="flex">
+  <span>{`>>`}</span><slot></slot>
+</div>
 
-<input
-  bind:value
-  class="w-full border-2 border-slate-100"
->

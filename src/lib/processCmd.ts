@@ -28,4 +28,7 @@ export const processCmd = (value: string) => {
 
 const CR = () => ({
   component: Error,
+  props: {
+    cmd: null
+  }
 })
