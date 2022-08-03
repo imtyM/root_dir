@@ -1,4 +1,6 @@
-<script lang='ts'>
-  export let cmd = ''
+<script lang="ts">
+  export let cmd = 'Wait... there is no command... '
+
+  const missing_command = cmd.split(' ')[0]
 </script>
-<p>I can't find this one hey..</p>
+<p>Command not found: {missing_command} </p>
