@@ -4,11 +4,12 @@
   import Input from "$lib/Components/Input.svelte"
 
   import { processCmd } from "$lib/processCmd"
+  import { valueIsClear } from '$lib/valueIsClear'
 
   type Result = {
     component: typeof SvelteComponent|null,
     props?: {
-      cmd?: string
+      cmd?: string|null
     }
   }
 
@@ -16,7 +17,11 @@
   let elements: Result[] = []
 
   const submit = () => {
-    elements = [...elements, processCmd(value)]
+    if (valueIsClear(value)) {
+      elements = []
+    } else {
+      elements = [...elements, processCmd(value)]
+    }
     value = ''
   }
 </script>
