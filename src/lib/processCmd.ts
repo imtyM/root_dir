@@ -15,9 +15,11 @@ export const processCmd = (value: string) => {
     const program: typeof SvelteComponent = outputs[path]?.default
     const meta = outputs[path]?.meta
 
-    const moduleCmd = meta?.cmd
-    moduleCmd === cmd && (OutputComponent = program)
+    const moduleCmds = meta?.cmd
+    moduleCmds && moduleCmds.some((moduleCmd: string) => moduleCmd === cmd)
+      && (OutputComponent = program)
   }
+
   return {
     component: (OutputComponent || Error),
     props: {

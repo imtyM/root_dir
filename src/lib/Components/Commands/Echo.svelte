@@ -1,7 +1,7 @@
 <script context="module">
   export const meta = {
       name: 'Echo',
-      cmd: 'echo'
+      cmd: ['echo']
     };
 </script>
 

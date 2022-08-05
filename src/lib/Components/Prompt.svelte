@@ -2,4 +2,3 @@
 <div class="flex">
   <span>&#x1D77A;</span><slot></slot>
 </div>
-
