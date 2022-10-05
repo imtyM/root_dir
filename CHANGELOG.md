@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.2.0](https://github.com/imtyM/root_dir/compare/v1.1.0...v1.2.0) (2022-09-08)
+
+
+### Features
+
+* **term:** add clear function to clear history ([3ffc823](https://github.com/imtyM/root_dir/commit/3ffc82359fac2e8283efdb138170f3e5fa85da01))
+* **term:** add new terminal commands ([c909a42](https://github.com/imtyM/root_dir/commit/c909a4238a83e85d24fc064468593d96b6371a9e))
+* **term:** Error now reports that the command is not found ([bb3d100](https://github.com/imtyM/root_dir/commit/bb3d100b96700f0a6dabef2c9aa3037226e1f6c2))
+* **term:** Input is wrapped in a promped and is preserved with the ([8088f71](https://github.com/imtyM/root_dir/commit/8088f718d1a65ac88997fa513637f6073be5bd6c))
+
 ## [1.1.0](https://github.com/imtyM/root_dir/compare/v1.0.0...v1.1.0) (2022-07-28)
 
 
